@@ -1,8 +1,28 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualCnc.Core", "VirtualCnc.Core\VirtualCnc.Core.csproj", "{8E64CCF7-221E-42EE-8A8B-5797289EC365}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualCnc.Web", "VirtualCnc.Web\VirtualCnc.Web.csproj", "{AA8129C7-FD64-4DED-874B-35226764D81B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualCnc.Configuration", "VirtualCnc.Configuration\VirtualCnc.Configuration.csproj", "{D420BD40-7E11-4160-AA87-B513A5FCE256}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E64CCF7-221E-42EE-8A8B-5797289EC365}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E64CCF7-221E-42EE-8A8B-5797289EC365}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E64CCF7-221E-42EE-8A8B-5797289EC365}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E64CCF7-221E-42EE-8A8B-5797289EC365}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA8129C7-FD64-4DED-874B-35226764D81B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA8129C7-FD64-4DED-874B-35226764D81B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA8129C7-FD64-4DED-874B-35226764D81B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA8129C7-FD64-4DED-874B-35226764D81B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D420BD40-7E11-4160-AA87-B513A5FCE256}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D420BD40-7E11-4160-AA87-B513A5FCE256}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D420BD40-7E11-4160-AA87-B513A5FCE256}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D420BD40-7E11-4160-AA87-B513A5FCE256}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
