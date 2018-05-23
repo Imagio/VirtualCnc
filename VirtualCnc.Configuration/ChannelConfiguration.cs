@@ -6,5 +6,11 @@ namespace VirtualCnc.Configuration {
 	{
 		[XmlAttribute("name")]
 		public string Name { get; set; }
+		
+		[XmlArray("axes")]
+		public AxisConfiguration[] Axes { get; set; }
+		
+		[XmlArray("spindles")]
+		public SpindleConfiguration[] Spindles { get; set; }
 	}
 }
